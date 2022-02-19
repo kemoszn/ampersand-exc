@@ -1,6 +1,6 @@
 # Ampersand Exercise 
 The solution of this exercise is a node/express application that has been deployed to heroku and is API-accessable. 
-[Live Demo](https://amp-exe.heroku.com)  
+[Live Demo](https://amp-exe.herokuapp.com)  
 * Available API-Endpoints _(1. /moto (GET, POST) 2. /battery (GET, POST) 3. /driver (GET, POST) )_   
    
 ### To run app locally:   
