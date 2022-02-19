@@ -1,6 +1,8 @@
+//import mongoose and its utitilities 
 const mongoose = require("mongoose");
 const { Schema } = mongoose;
 
+//moto object structure
 const Moto = new Schema(
     { 
         plateNo: {
@@ -19,4 +21,4 @@ const Moto = new Schema(
     { timestamps: true }
 );
 
-module.exports = mongoose.model("Moto", Moto);
+module.exports = mongoose.model("Moto", Moto); //export object schema for usage

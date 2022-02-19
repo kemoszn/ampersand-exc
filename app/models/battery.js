@@ -1,6 +1,8 @@
+//import mongoose and its utitilities 
 const mongoose = require("mongoose");
 const { Schema } = mongoose;
 
+//battery object structure
 const Battery = new Schema(
     { 
         manufactringDate: {
@@ -27,4 +29,4 @@ const Battery = new Schema(
     { timestamps: true }
 );
 
-module.exports = mongoose.model("Battery", Battery);
+module.exports = mongoose.model("Battery", Battery); //export object schema for usage

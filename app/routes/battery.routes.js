@@ -1,3 +1,4 @@
+//import router library and controller handler 
 const { Router } = require("express");
 const controller = require("../controllers/battery.controller.js");
 const { controllerHandler: c } = require("../utils");
@@ -11,4 +12,4 @@ router.get(
 );
 router.post("/", c(controller.addBattery, (req) => [req.body]));
 
-module.exports = router;
+module.exports = router; //export module for usage

@@ -1,6 +1,8 @@
+//import mongoose and its utitilities 
 const mongoose = require("mongoose");
 const { Schema } = mongoose;
 
+//driver object structure 
 const Driver = new Schema(
     { 
         firstName: {
@@ -23,4 +25,4 @@ const Driver = new Schema(
     { timestamps: true }
 );
 
-module.exports = mongoose.model("Driver", Driver);
+module.exports = mongoose.model("Driver", Driver); //export object schema for usage 
