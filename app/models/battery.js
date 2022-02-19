@@ -18,6 +18,10 @@ const Battery = new Schema(
         station: {
             type: String, 
             required: true
+        },
+        serial: {
+            type: String, 
+            required: true
         }
     }, 
     { timestamps: true }

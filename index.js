@@ -20,7 +20,7 @@ app.use(express.urlencoded({ extended: true }));
 
 
 //ROUTES ENDPOINTS 
-//app.use("/driver", require("./app/routes/driver.routes"))
+app.use("/driver", require("./app/routes/driver.routes"))
 app.use("/battery", require("./app/routes/battery.routes"));
 
 app.use((err, _req, res, next) => {

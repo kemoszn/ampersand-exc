@@ -21,7 +21,7 @@ module.exports = {
     return batteryDoc;
   },
 
-  async createBattery({ manufactringDate, capacity, brand, station }) {
-    return Battery.create({ manufactringDate, capacity, brand, station });
+  async createBattery({ manufactringDate, capacity, brand, station, serial }) {
+    return Battery.create({ manufactringDate, capacity, brand, station, serial });
   }
 }

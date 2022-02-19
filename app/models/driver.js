@@ -15,7 +15,7 @@ const Driver = new Schema(
             type: String, 
             required: true,
         },
-        registartionDate: {
+        registrationDate: {
             type: Date, 
             required: true
         }
@@ -23,4 +23,4 @@ const Driver = new Schema(
     { timestamps: true }
 );
 
-module.expoets = mongoose.model("Driver", Driver);
+module.exports = mongoose.model("Driver", Driver);
